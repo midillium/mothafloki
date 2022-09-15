@@ -9,21 +9,14 @@
     <link rel="icon" href="images/MothaflokiLogo.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md">
-            <center><video id="myVideo" src="/images/IMG_4773.MP4" autoplay style="border-radius:5px;width:100%;"></video></center>
-        </div>
-    </div>
-	<script src="index.js"></script>
+    <nav id="home">
+        <ul>
+            <li><a class="firstnavlink" href="#home">HOME</a></li>
+            <li><a class="navlink" href="#about">ABOUT</a></li>
+            <li><a class="navlink" href="#nfts">NFTS</a></li>
+            <li><a class="navlink" href="#roadmap">ROADMAP</a></li>
+            <li><a class="navlink" href="#team">TEAM</a></li>
+        </ul>
+    </nav>
   </body>
 </html>
-<script>
-    $("#myModal").modal()
-    $(".container").hide();
-    document.getElementById('myVideo').addEventListener('ended', closeModal, false);
-
-    function closeModal() {
-        $(".container").show();
-        $('#myModal').modal('hide');
-    }
-    </script>
