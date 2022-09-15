@@ -8,8 +8,6 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    height: 30%;
-    width: 30%;
 }
 .buttons{
     display: grid;
