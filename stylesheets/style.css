@@ -1,9 +1,8 @@
-nav ul{
-    display: flex; 
-    list-style: none;
-    justify-content: center;
-    padding: 0;
+html{
+    scroll-behavior: smooth;
+     overflow-x:hidden ;
 }
-nav ul li{
-    padding: 2rem;
-    font-size: 2.5rem;
+body{
+    width: 100vw;
+    background-color: black;
+    margin: 0;
